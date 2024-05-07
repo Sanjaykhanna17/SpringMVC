@@ -1,6 +1,6 @@
 FROM tomcat:8.0-alpine
 
-COPY SpringMVCHibernate.war /usr/local/tomcat/webapps/SpringMVCHibernate.war
+COPY .jenkins\workspace\SpringMVC\target\SpringMVCHibernate.war /usr/local/tomcat/webapps/SpringMVCHibernate.war
 
 EXPOSE 8084
 
