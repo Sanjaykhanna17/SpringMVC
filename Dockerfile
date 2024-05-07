@@ -1,6 +1,6 @@
 FROM tomcat:8.0-alpine
 
-COPY  COPY ${JAR_FILE} /usr/local/tomcat/webapps/SpringMVCHibernate.war
+COPY ${WAR_FILE} /usr/local/tomcat/webapps/SpringMVCHibernate.war
 
 EXPOSE 8084
 
