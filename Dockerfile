@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . /app
 
-COPY app/target/SpringMVCHibernate.war /usr/local/tomcat/webapps/SpringMVCHibernate.war
+COPY /target/SpringMVCHibernate.war /usr/local/tomcat/webapps/SpringMVCHibernate.war
 
 EXPOSE 8084
 
