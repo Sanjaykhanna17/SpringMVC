@@ -6,4 +6,4 @@ COPY ${WAR_FILE} /usr/local/tomcat/webapps/SpringMVCHibernate.war
 
 EXPOSE 8084
 
-CMD [ "java","-jar","SpringMVCHibernate.war" ]
+CMD [ "catalina.sh" , run ]
