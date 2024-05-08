@@ -1,4 +1,4 @@
-FROM tomcat:lastest
+FROM tomcat:latest
 
 COPY ${WAR_FILE} /usr/local/tomcat/webapps/SpringMVCHibernate.war
 
